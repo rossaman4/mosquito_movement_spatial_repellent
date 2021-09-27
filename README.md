@@ -1,5 +1,4 @@
-mosquito_movement_spatial_repellent <br>
-Method for secondary analysis of trial data
+mosquito_movement_spatial_repellent: Method for secondary analysis of trial data
 
 Contains code from the paper <br>
 <i>Can trials of spatial repellents be used to estimate mosquito movement?</i> Malinga J, Maia M, Moore S & Ross A. <br>
