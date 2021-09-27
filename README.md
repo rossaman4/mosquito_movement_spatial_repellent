@@ -1,9 +1,11 @@
-mosquito_movement_spatial_repellent
+mosquito_movement_spatial_repellent <br>
 Method for secondary analysis of trial data
 
 Contains code from the paper <br>
 <i>Can trials of spatial repellents be used to estimate mosquito movement?</i> Malinga J, Maia M, Moore S & Ross A. <br>
 <i>Parasites & Vectors</i> 2019, 12: 421
+
+This is a copy of the repository in the Swiss TPH github
 
 There is a small error throughout the publication. We erroneously stated that the mean of the distances was lambda. Because the distribution assumed is a half-normal, the mean is lambda*sqrt(2/pi). This error appears in the methods and results of the manuscript. All means should be multiplied by sqrt(2/pi) or 0.798. The conclusions of the paper remain unchanged. The code was correct, but the description of lambda has now been updated. We apologise for this error. 
 
@@ -26,5 +28,3 @@ Contains the R scripts for simulating the trial scenarios (with/out additional s
 
 The parameter values and file names for the simulations can be edited at the end of each R script.
 These R scripts can simulate datasets with different parameter combinations.
-
-This is a copy of the repository in the Swiss TPH github
